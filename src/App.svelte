@@ -5,7 +5,7 @@
   import { routes } from "./routes";
   import { worlds, fill } from "./stores";
   async function fetchAsync() {
-    let res = await fetch("https://albiziapp.reveries-project.fr/api/history",{mode:'no-cors'});
+    let res = await fetch("https://albiziapp.reveries-project.fr/api/history");
     let data = await res.json();
     return data;
   }
