@@ -53,6 +53,10 @@ li a:hover {
         <a use:link href="/Global">Global</a>
       </li>
       <li>
+        <a use:link href="/Individual">Individual</a>
+      </li>
+
+      <li>
         <a use:link href="/test">About</a>
       </li>
     </ul>

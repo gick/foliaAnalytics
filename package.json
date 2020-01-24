@@ -16,10 +16,13 @@
     "svelte": "^3.16.7"
   },
   "dependencies": {
+    "echarts": "^4.6.0",
+    "echarts-for-svelte": "^0.1.11",
     "express": "^4.17.1",
     "express-static-gzip": "^2.0.5",
     "sirv-cli": "^0.4.4",
     "svelte-frappe-charts": "^1.0.1",
+    "svelte-select": "^3.3.5",
     "svelte-spa-router": "^2.0.0"
   }
 }

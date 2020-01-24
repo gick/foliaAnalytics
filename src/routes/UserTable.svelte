@@ -1,5 +1,4 @@
 <script>
-  import { derived } from "svelte/store";
   import { worlds } from "../stores";
   import {countDateFreq} from '../stores'
   let init = 30;
@@ -63,7 +62,7 @@
 <main>
   <Chart data={eventFreq} type="bar" />
 </main>
-<h2>Events date</h2>
-<main>{x}
+<h2>Events frequency</h2>
+<main>
   <Chart data={dateFreq} lineOptions={x} axisOptions={y}/>
 </main>
