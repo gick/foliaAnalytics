@@ -63,9 +63,12 @@ li a:hover {
   </nav>
 
 
-  {#await fetchAsync() then value}
-
-
+  {#await fetchAsync()}
+  <h3>Shrumping the JSON</h3>
+  <h3>Gulping the package</h3>
+  <h3>Crafting deligthfull user experience</h3>
+  <h3>...</h3>
+  {:then value}
   <Router {routes} />
     <i hidden>{fill(value)}</i>
   {/await}

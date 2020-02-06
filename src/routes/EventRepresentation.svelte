@@ -108,15 +108,15 @@ text-align: left;
     color: gainsboro;
   }
   .classVer {
-    background-color: #191;
+    background-color: rgb(79, 218, 79);
     color: gray;
   }
   .classIden {
-    background-color: #1c1;
+    background-color: rgb(155, 235, 155);
     color: darkslategray;
   }
   .classMax {
-    background-color: #9f9;
+    background-color: rgb(226, 214, 214);
     color: black;
   }
 </style>

@@ -7,8 +7,8 @@
     res.genus = observation.genus;
     res.specie = observation.specie;
     res.common = observation.common;
-    res.latitude=observation.latitude
-    res.longitude=observation.longitude
+    res.latitude=observation.location.coordinates[0]
+    res.longitude=observation.location.coordinates[1]
 console.log(res)
 return res;
   };
