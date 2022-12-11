@@ -18,7 +18,7 @@
   "dependencies": {
     "echarts": "^4.6.0",
     "echarts-for-svelte": "^0.1.11",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-static-gzip": "^2.0.5",
     "sirv-cli": "^0.4.4",
     "svelte-frappe-charts": "^1.0.1",
